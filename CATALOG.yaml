@@ -1,0 +1,783 @@
+user: valentinorayisabell
+total_notebooks: 78
+notebooks:
+- slug: notebookd476973901
+  title: notebookd476973901
+  project: pclf-llm-classification
+  competition: llm-classification-finetuning
+  chain: pclf
+  parent_slug: null
+  status: failed
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookd476973901
+  one_line_summary: First PCLF attempt
+- slug: traps
+  title: traps
+  project: pclf-llm-classification
+  competition: llm-classification-finetuning
+  chain: pclf
+  parent_slug: notebookd476973901
+  status: archive
+  public_score: '1.08357'
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/traps
+  one_line_summary: Early baseline TRAPS pipeline
+- slug: fine-tuning
+  title: fine-tuning
+  project: pclf-llm-classification
+  competition: llm-classification-finetuning
+  chain: pclf
+  parent_slug: traps
+  status: archive
+  public_score: '1.07830'
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/fine-tuning
+  one_line_summary: Fine-tuning experiment v2
+- slug: hybrid-deberta-tf-idf-ensemble
+  title: hybrid-deberta-tf-idf-ensemble
+  project: pclf-llm-classification
+  competition: llm-classification-finetuning
+  chain: pclf
+  parent_slug: fine-tuning
+  status: showcase
+  public_score: '1.07741'
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/hybrid-deberta-tf-idf-ensemble
+  one_line_summary: Best TF-IDF+DeBERTa hybrid
+- slug: deberta-championship-pclf-v6
+  title: deberta-championship-pclf-v6
+  project: pclf-llm-classification
+  competition: llm-classification-finetuning
+  chain: pclf
+  parent_slug: hybrid-deberta-tf-idf-ensemble
+  status: wip
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/deberta-championship-pclf-v6
+  one_line_summary: GPU DeBERTa championship pipeline
+- slug: nemotron-probe
+  title: nemotron-probe
+  project: nemotron-reasoning
+  competition: nvidia-nemotron-model-reasoning-challenge
+  chain: nemotron
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/nemotron-probe
+  one_line_summary: Architecture and rules probe
+- slug: nemotron-lora-train
+  title: nemotron-lora-train
+  project: nemotron-reasoning
+  competition: nvidia-nemotron-model-reasoning-challenge
+  chain: nemotron
+  parent_slug: nemotron-probe
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/nemotron-lora-train
+  one_line_summary: Rank-32 LoRA training
+- slug: nemotron-lora-sub
+  title: nemotron-lora-sub
+  project: nemotron-reasoning
+  competition: nvidia-nemotron-model-reasoning-challenge
+  chain: nemotron
+  parent_slug: nemotron-lora-train
+  status: showcase
+  public_score: '0.53'
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/nemotron-lora-sub
+  one_line_summary: Submission notebook
+- slug: aimo-3-submission-demo
+  title: aimo-3-submission-demo
+  project: aimo3-math-solver
+  competition: ai-mathematical-olympiad-progress-prize-3
+  chain: aimo3
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/aimo-3-submission-demo
+  one_line_summary: Gateway and format demo
+- slug: 36-40-gpt-oss-120b-tir-dynamictime-pooling
+  title: 36-40-gpt-oss-120b-tir-dynamictime-pooling
+  project: aimo3-math-solver
+  competition: ai-mathematical-olympiad-progress-prize-3
+  chain: aimo3
+  parent_slug: aimo-3-submission-demo
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/36-40-gpt-oss-120b-tir-dynamictime-pooling
+  one_line_summary: GPT-OSS 120B TIR iteration
+- slug: 39-50-gpt-oss-120b-tir-dynamictime-out-pooling
+  title: 39-50-gpt-oss-120b-tir-dynamictime-out-pooling
+  project: aimo3-math-solver
+  competition: ai-mathematical-olympiad-progress-prize-3
+  chain: aimo3
+  parent_slug: 36-40-gpt-oss-120b-tir-dynamictime-pooling
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/39-50-gpt-oss-120b-tir-dynamictime-out-pooling
+  one_line_summary: GPT-OSS 120B TIR iteration v2
+- slug: aimo3-foundation-solver-v3
+  title: aimo3-foundation-solver-v3
+  project: aimo3-math-solver
+  competition: ai-mathematical-olympiad-progress-prize-3
+  chain: aimo3
+  parent_slug: 39-50-gpt-oss-120b-tir-dynamictime-out-pooling
+  status: showcase
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/aimo3-foundation-solver-v3
+  one_line_summary: Multi-strategy foundation solver
+- slug: hull-lightgbm-model
+  title: hull-lightgbm-model
+  project: archive
+  competition: null
+  chain: early-experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/hull-lightgbm-model
+  one_line_summary: Early experiment notebook
+- slug: trapsta-gpt
+  title: trapsta-gpt
+  project: archive
+  competition: null
+  chain: early-experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/trapsta-gpt
+  one_line_summary: Early experiment notebook
+- slug: finetune-gpt-oss-20b
+  title: finetune-gpt-oss-20b
+  project: archive
+  competition: null
+  chain: early-experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/finetune-gpt-oss-20b
+  one_line_summary: Early experiment notebook
+- slug: hullsol
+  title: hullsol
+  project: archive
+  competition: null
+  chain: early-experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/hullsol
+  one_line_summary: Early experiment notebook
+- slug: trap11
+  title: trap11
+  project: archive
+  competition: null
+  chain: early-experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/trap11
+  one_line_summary: Early experiment notebook
+- slug: 626-traplord-first-note
+  title: 626-traplord-first-note
+  project: archive
+  competition: null
+  chain: early-experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/626-traplord-first-note
+  one_line_summary: Early experiment notebook
+- slug: notebook9030838a11
+  title: notebook9030838a11
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook9030838a11
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook0bf2d191cf
+  title: notebook0bf2d191cf
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook0bf2d191cf
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook3248a09646
+  title: notebook3248a09646
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook3248a09646
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookedf6d71cdb
+  title: notebookedf6d71cdb
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookedf6d71cdb
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookd151fe9769
+  title: notebookd151fe9769
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookd151fe9769
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookd5e7d8f476
+  title: notebookd5e7d8f476
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookd5e7d8f476
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookea788b70c1
+  title: notebookea788b70c1
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookea788b70c1
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook9a70e7ef0e
+  title: notebook9a70e7ef0e
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook9a70e7ef0e
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook3cf4f51fca
+  title: notebook3cf4f51fca
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook3cf4f51fca
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook157cc9899d
+  title: notebook157cc9899d
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook157cc9899d
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook823de3c60c
+  title: notebook823de3c60c
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook823de3c60c
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook2024f319c5
+  title: notebook2024f319c5
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook2024f319c5
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook23584000a1
+  title: notebook23584000a1
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook23584000a1
+  one_line_summary: Iteration / experiment notebook
+- slug: notebooka6d357fae8
+  title: notebooka6d357fae8
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebooka6d357fae8
+  one_line_summary: Iteration / experiment notebook
+- slug: notebooke61d3aa83c
+  title: notebooke61d3aa83c
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebooke61d3aa83c
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookd87ae179c3
+  title: notebookd87ae179c3
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookd87ae179c3
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook01a0725dc5
+  title: notebook01a0725dc5
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook01a0725dc5
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook4236976bf4
+  title: notebook4236976bf4
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook4236976bf4
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookbfcbb7fa22
+  title: notebookbfcbb7fa22
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookbfcbb7fa22
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook571e179d84
+  title: notebook571e179d84
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook571e179d84
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookdffc5566d9
+  title: notebookdffc5566d9
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookdffc5566d9
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookc9943fd6eb
+  title: notebookc9943fd6eb
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookc9943fd6eb
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook7aa342bc0e222
+  title: notebook7aa342bc0e222
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook7aa342bc0e222
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook938b9df80f
+  title: notebook938b9df80f
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook938b9df80f
+  one_line_summary: Iteration / experiment notebook
+- slug: notebooke16c5f8d71
+  title: notebooke16c5f8d71
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebooke16c5f8d71
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook89368e8205
+  title: notebook89368e8205
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook89368e8205
+  one_line_summary: Iteration / experiment notebook
+- slug: notebooke0cfddc7c2
+  title: notebooke0cfddc7c2
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebooke0cfddc7c2
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookea10b674a2
+  title: notebookea10b674a2
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookea10b674a2
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookdb66d127fb
+  title: notebookdb66d127fb
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookdb66d127fb
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook28c1a0b9fd
+  title: notebook28c1a0b9fd
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook28c1a0b9fd
+  one_line_summary: Iteration / experiment notebook
+- slug: notebooke7fd3fdf55
+  title: notebooke7fd3fdf55
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebooke7fd3fdf55
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook43e07327ce
+  title: notebook43e07327ce
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook43e07327ce
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook82377dbbbb
+  title: notebook82377dbbbb
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook82377dbbbb
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookcae78f0fa6
+  title: notebookcae78f0fa6
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookcae78f0fa6
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook010c0e6576
+  title: notebook010c0e6576
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook010c0e6576
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook85690e4b89
+  title: notebook85690e4b89
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook85690e4b89
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook108c18af7f
+  title: notebook108c18af7f
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook108c18af7f
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook6648ecf449
+  title: notebook6648ecf449
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook6648ecf449
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook07b86bcefc
+  title: notebook07b86bcefc
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook07b86bcefc
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook7330eebb85
+  title: notebook7330eebb85
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook7330eebb85
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook8506531149
+  title: notebook8506531149
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook8506531149
+  one_line_summary: Iteration / experiment notebook
+- slug: notebooke8fc3f5742
+  title: notebooke8fc3f5742
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebooke8fc3f5742
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookaa874867fb
+  title: notebookaa874867fb
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookaa874867fb
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook867420ff49
+  title: notebook867420ff49
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook867420ff49
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookc2cf15d7ac
+  title: notebookc2cf15d7ac
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookc2cf15d7ac
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook7999a8652b
+  title: notebook7999a8652b
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook7999a8652b
+  one_line_summary: Iteration / experiment notebook
+- slug: notebooked618eae50
+  title: notebooked618eae50
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebooked618eae50
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook4c43f13e53
+  title: notebook4c43f13e53
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook4c43f13e53
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook77f9373c6d
+  title: notebook77f9373c6d
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook77f9373c6d
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook5f7b187fba
+  title: notebook5f7b187fba
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook5f7b187fba
+  one_line_summary: Iteration / experiment notebook
+- slug: notebooke5db1d623a
+  title: notebooke5db1d623a
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebooke5db1d623a
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookfba39dbe35
+  title: notebookfba39dbe35
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookfba39dbe35
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook1748e62757
+  title: notebook1748e62757
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook1748e62757
+  one_line_summary: Iteration / experiment notebook
+- slug: notebookab40cfd8c7
+  title: notebookab40cfd8c7
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebookab40cfd8c7
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook78d7300ff5
+  title: notebook78d7300ff5
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook78d7300ff5
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook4aab80c4e5
+  title: notebook4aab80c4e5
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook4aab80c4e5
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook87a69e27b7
+  title: notebook87a69e27b7
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook87a69e27b7
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook738cc86a59
+  title: notebook738cc86a59
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook738cc86a59
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook64e49f67cb
+  title: notebook64e49f67cb
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook64e49f67cb
+  one_line_summary: Iteration / experiment notebook
+- slug: notebook1a63469852
+  title: notebook1a63469852
+  project: archive
+  competition: null
+  chain: experiments
+  parent_slug: null
+  status: archive
+  public_score: null
+  kaggle_url: https://www.kaggle.com/code/valentinorayisabell/notebook1a63469852
+  one_line_summary: Iteration / experiment notebook

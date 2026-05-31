@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.env
+.kaggle/
+*.csv
+*.zip
+*.pt
+*.pth
+*.safetensors
+.ipynb_checkpoints/
+.DS_Store
+
+# Notebooks pulled from Kaggle may be large
+projects/*/notebooks/*.ipynb
